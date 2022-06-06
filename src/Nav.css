@@ -1,0 +1,27 @@
+.nav_bar {
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-between;
+  display: flex;
+  height: 32px;
+
+  z-index: 1;
+  transition: all ease-in 0.4s;
+}
+.black {
+  background: black;
+}
+
+.nav_logo {
+  position: fixed;
+  height: 2rem;
+  left: 1rem;
+  object-fit: contain;
+}
+.nav_pic {
+  position: fixed;
+  height: 2rem;
+  right: 1rem;
+  object-fit: contain;
+}
